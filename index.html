@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Onboarding práctica — Kiany Morales Villavicencio</title>
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --muted: #555;
+    --line: #ccc;
+    --accent: #0b5fff;
+    --bg: #fff;
+    --soft: #f6f8fb;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.45;
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 1.5rem 1.25rem 3rem;
+  }
+  h1 { font-size: 1.55rem; margin: 0 0 0.35rem; }
+  h2 {
+    font-size: 1.15rem;
+    margin: 1.6rem 0 0.55rem;
+    padding-bottom: 0.25rem;
+    border-bottom: 2px solid var(--accent);
+  }
+  h3 { font-size: 1rem; margin: 1rem 0 0.4rem; }
+  p, li { font-size: 0.95rem; }
+  .meta { color: var(--muted); font-size: 0.9rem; margin-bottom: 1rem; }
+  .box {
+    background: var(--soft);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 0.85rem 1rem;
+    margin: 0.75rem 0;
+  }
+  .check { list-style: none; padding-left: 0; }
+  .check li {
+    padding: 0.28rem 0 0.28rem 1.6rem;
+    position: relative;
+  }
+  .check li::before {
+    content: "☐";
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    font-size: 1.05rem;
+  }
+  a { color: var(--accent); }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.88rem;
+    margin: 0.5rem 0 1rem;
+  }
+  th, td {
+    border: 1px solid var(--line);
+    padding: 0.45rem 0.5rem;
+    text-align: left;
+    vertical-align: top;
+  }
+  th { background: var(--soft); }
+  .tag {
+    display: inline-block;
+    background: #e8f0ff;
+    color: #0b5fff;
+    font-size: 0.75rem;
+    padding: 0.1rem 0.45rem;
+    border-radius: 999px;
+    font-weight: 600;
+  }
+  footer {
+    margin-top: 2rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 0.8rem;
+  }
+  @media print {
+    body { padding: 0; max-width: none; }
+    a { color: inherit; text-decoration: none; }
+    a::after { content: " (" attr(href) ")"; font-size: 0.75em; color: #666; }
+    .noprint { display: none !important; }
+    h2 { break-after: avoid; }
+    .box, table { break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+  <p class="noprint" style="margin:0 0 1rem">
+    <button type="button" onclick="window.print()" style="padding:0.45rem 0.9rem;border:0;border-radius:6px;background:#0b5fff;color:#fff;font-weight:600;cursor:pointer">Imprimir / PDF</button>
+  </p>
+
+  <h1>Onboarding — Práctica profesional</h1>
+  <p class="meta">
+    <strong>Estudiante:</strong> Kiany Morales Villavicencio (IA, CTP Santa Ana)<br/>
+    <strong>Encargado:</strong> Alexander Barquero Elizondo · ECCI / CITIC · UCR<br/>
+    <strong>Periodo:</strong> octubre–noviembre 2026 · lun–vie 8:00–17:00<br/>
+    <strong>Lugar:</strong> Finca 1, contiguo al Centro de Informática · Oficina / lab según indicación
+  </p>
+
+  <div class="box">
+    <strong>Objetivo de estas dos semanas iniciales:</strong>
+    instalar herramientas, aprender a trabajar con un coding agent (Google Antigravity),
+    medir inglés con LexTALE, y arrancar trabajo real en proyectos de investigación de agentes virtuales
+    (datos, evaluación, benchmarking). Después se suma código/UI cuando haga falta.
+  </div>
+
+  <h2>1. Antes del primer día (con José Daniel / TI)</h2>
+  <ul class="check">
+    <li>Cuenta de máquina / login de la computadora de práctica</li>
+    <li>Permisos para instalar software (Antigravity, Git, VS Code)</li>
+    <li>Wi‑Fi / red institucional funcionando</li>
+    <li>Confirmar si hay correo institucional o se usa Gmail personal</li>
+  </ul>
+
+  <h2>2. Cuentas que debes crear (gratis)</h2>
+  <ul class="check">
+    <li><strong>Google</strong> (si no tienes) → para Antigravity Individual $0</li>
+    <li><strong>GitHub</strong> → Copilot Free (+ Student Pack si aplica)</li>
+    <li>Aceptar invitaciones a repos de <strong>AURAxLab</strong> / carpetas compartidas que te indiquen</li>
+  </ul>
+  <p><span class="tag">Importante</span> No pegues contraseñas, tokens ni claves API en el chat del agent. No subas datos personales de participantes del estudio.</p>
+
+  <h2>3. LexTALE (inglés) — martes, de una vez</h2>
+  <ol>
+    <li>Abre <a href="https://www.lextale.com/">https://www.lextale.com/</a></li>
+    <li>Completa la prueba con calma (sin diccionario ni traductor).</li>
+    <li>Anota tu puntaje y envíaselo a Alexander (correo o en persona).</li>
+  </ol>
+  <div class="box">
+    <strong>Criterio del estudio CVA (C5353):</strong><br/>
+    Puntaje <strong>&gt; 80</strong> → materiales preferente en inglés.<br/>
+    Puntaje <strong>≤ 80</strong> → materiales preferente en español.<br/>
+    Los codelabs de Antigravity existen en ambos idiomas; usamos el que mejor te sirva.
+  </div>
+
+  <h2>4. Software a instalar</h2>
+  <ul class="check">
+    <li><a href="https://antigravity.google/download">Google Antigravity</a> (herramienta principal)</li>
+    <li>Git</li>
+    <li>VS Code (opcional, para GitHub Copilot Free)</li>
+    <li>Extensión GitHub Copilot (si activaste Copilot Free / Student)</li>
+  </ul>
+
+  <h2>5. Cursos oficiales Antigravity (gratis, bilingües)</h2>
+  <table>
+    <thead>
+      <tr><th>Orden</th><th>Español</th><th>English</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1. Primeros pasos</td>
+        <td><a href="https://codelabs.developers.google.com/getting-started-google-antigravity?hl=es-419">Codelab ES</a></td>
+        <td><a href="https://codelabs.developers.google.com/getting-started-google-antigravity">Codelab EN</a></td>
+      </tr>
+      <tr>
+        <td>2. Compilar con agentes</td>
+        <td><a href="https://codelabs.developers.google.com/building-with-google-antigravity?hl=es-419">Codelab ES</a></td>
+        <td><a href="https://codelabs.developers.google.com/building-with-google-antigravity">Codelab EN</a></td>
+      </tr>
+    </tbody>
+  </table>
+  <p>Extra opcional (Coursera / Google): <a href="https://www.coursera.org/learn/liftoff-with-google-antigravity-build-a-video-game-with-ai">Liftoff with Antigravity</a>.</p>
+
+  <h2>6. Cómo no gastar toda la cuota semanal del agent</h2>
+  <ul>
+    <li>Lee primero; pide al agent <em>un</em> cambio pequeño por vez.</li>
+    <li>Prefiere Tab / Command / chat corto antes de “agent corre 40 pasos”.</li>
+    <li>Siempre revisa el diff antes de aceptar.</li>
+    <li>Guarda buenos prompts en un archivo <code>PROMPTS.md</code> o bitácora.</li>
+    <li>Si te quedas sin cuota: sigue con lectura, tablas, notas y Copilot Free.</li>
+  </ul>
+
+  <h2>7. Calendario de los primeros días</h2>
+
+  <h3>Lunes 5 oct — solo logística e instalación</h3>
+  <ul>
+    <li><strong>Mañana:</strong> bienvenida MEP / EDUCON (actividad oficial).</li>
+    <li><strong>~14:00:</strong> Alexander te recoge en EDUCON (Educación Continua).</li>
+    <li>Conocer el lugar (baño, cafetería, oficina, salida de emergencia).</li>
+    <li>Definir transporte / ruta para llegar sola el martes a las 8:00.</li>
+    <li>Crear cuentas + instalar Antigravity / Git / VS Code (con apoyo de José Daniel si hace falta).</li>
+    <li><strong>No hay taller largo este día.</strong> Luego a casa.</li>
+  </ul>
+  <ul class="check">
+    <li>Anoté cómo llego mañana (bus / familia / otro)</li>
+    <li>Cuentas Google + GitHub listas</li>
+    <li>Antigravity abre e inicia sesión</li>
+    <li>Bitácora día 1: qué instalé / dudas</li>
+  </ul>
+
+  <h3>Martes 6 oct — LexTALE + taller + práctica liviana</h3>
+  <table>
+    <thead><tr><th>Hora</th><th>Actividad</th></tr></thead>
+    <tbody>
+      <tr><td>8:00–9:00</td><td>Acomodo + LexTALE + anotar puntaje</td></tr>
+      <tr><td>9:00–12:00</td><td>Taller con Alexander: coding agents + Antigravity (ejercicios guiados)</td></tr>
+      <tr><td>12:00–13:00</td><td>Almuerzo / lectura (Alexander tiene reunión 12:00–13:00)</td></tr>
+      <tr><td>13:00–17:00</td><td>Codelab “Primeros pasos” + bitácora + tarea de familiarización (abajo)</td></tr>
+    </tbody>
+  </table>
+  <p><strong>Tarea martes PM (bajo consumo de tokens):</strong></p>
+  <ol>
+    <li>Avanzar el codelab de Primeros pasos (idioma según LexTALE).</li>
+    <li>Escribir ½–1 página: “Qué es un coding agent y qué no debo pedirle”.</li>
+    <li>Listar 10 prompts buenos vs malos en la bitácora.</li>
+  </ol>
+
+  <h3>Miércoles–viernes (semana 1) — familiarización + arranque de brete</h3>
+  <ul>
+    <li>Terminar codelab 1; empezar codelab 2 si alcanza cuota.</li>
+    <li>Onboarding al proyecto <strong>NewCVAStudy / C5353</strong>: leer HANDOFF / REGISTRO (sin reabrir decisiones cerradas).</li>
+    <li>Empezar esqueleto de tablas bilingües / diccionario de codebook (26 intents) según guía del encargado.</li>
+    <li>Preparar guía de anotación para <strong>cr-anonymizer</strong> (después de reunión con Daniel Shih).</li>
+  </ul>
+
+  <h2>8. Mapa de trabajo (visión 8 semanas)</h2>
+  <table>
+    <thead><tr><th>Prioridad</th><th>Proyecto</th><th>Tipo de trabajo</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>NewCVAStudy / C5353</td><td>Datos, tablas, evaluación de interacción, pipeline</td></tr>
+      <tr><td>2</td><td>cr-anonymizer</td><td>Corpus gold, métricas P/R/F1, protocolo</td></tr>
+      <tr><td>3</td><td>MixedFeedback</td><td>Matrices lit / claim–fuente</td></tr>
+      <tr><td>4</td><td>OVARP (rebanada IA + código si hace falta)</td><td>Benchmark LLM, SUS/UEQ; UI solo con guía</td></tr>
+      <tr><td>5</td><td>AlquimIA / Colibría</td><td>Kits pedagógicos / quizzes</td></tr>
+    </tbody>
+  </table>
+  <p>Sin cupo de “Desarrollo de Software” aparte: también puedes ayudar en UI/integración, pero <strong>después</strong> del ramp-up de agentes y con revisión de Alexander.</p>
+
+  <h2>9. Normas de seguridad y ética</h2>
+  <ul>
+    <li>No abras carpetas <strong>Salud / Health*</strong>.</li>
+    <li>Datos de participantes CVA: solo vistas scrubbed / IDs; no nombres en commits ni chats públicos.</li>
+    <li>No force-push, no borrar repos, no subir secretos.</li>
+    <li>Si el agent propone algo raro (borrar todo, instalar malware, exfiltrar datos): <strong>para y pregunta</strong>.</li>
+  </ul>
+
+  <h2>10. Bitácora diaria (copia en cada día)</h2>
+  <div class="box">
+    Fecha: __________ &nbsp; Horas: __________<br/><br/>
+    Qué hice:<br/>_______________________________________________<br/><br/>
+    Qué pedí al agent / qué acepté / qué rechacé:<br/>_______________________________________________<br/><br/>
+    Bloqueos / dudas para Alexander:<br/>_______________________________________________
+  </div>
+
+  <h2>11. Contactos</h2>
+  <ul>
+    <li><strong>Alexander Barquero Elizondo</strong> — encargado · alexander.barqueroelizondo@ucr.ac.cr · ext. 8000</li>
+    <li><strong>José Daniel</strong> — cuenta / computadora / permisos de install</li>
+    <li>Dudas de práctica MEP: Rosibel Arguello Segura · ext. 6099</li>
+  </ul>
+
+  <footer>
+    AURAxLab · Onboarding práctica Kiany Morales Villavicencio · Oct–Nov 2026 · Documento imprimible (HTML).
+    Actualizar este archivo en el repo de onboarding cuando cambien horarios o cuentas.
+  </footer>
+</body>
+</html>
