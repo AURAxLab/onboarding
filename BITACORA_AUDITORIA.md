@@ -20,6 +20,13 @@ Archivos del paquete: `index.html`, `taller-antigravity-2026-10-06.md`, `semana-
 
 ## 1. Eventos (más reciente arriba)
 
+### 2026-10-02 ~00:30–00:35 CR (noche)
+- Alexander dormido hasta la mañana (vía Grok Bot). Continuar onboarding/backlog en silencio; sin deletes inseguros; backups antes de editar; status matutino.
+- Routine matutina creada: `morning-kiany-onboarding-status` (lun–vie 8:02 CR).
+- Backup: `/workspace/kiany-onboarding-backups/kiany-onboarding_20261002_0030.tar.gz` y AvalonM `C:\Users\alexb\Documents\GrokBotHandoff\kiany-onboarding-backups\`.
+- PR #1 aún **open**, mergeable/clean, ready for review: https://github.com/AURAxLab/onboarding/pull/1 — ya incluye `BITACORA_AUDITORIA.md` (cloud agent bc-f2e18e9a… finished; head SHA `8455451aef45d50d5f2cc7e8a6fb13f3de49e1ec`). No merge sin OK de Alexander.
+- Búsqueda nocturna de mega-resumen Claude: aún no hallado en AntiGravity/ClaudeStuff/GrokStuff/Handoff (pendiente reintentar / esperar archivo de Grok Bot).
+
 ### 2026-10-02 ~00:28 CR
 - Regla de bitácora permanente confirmada vía Grok Bot.
 - Creado este archivo.
@@ -98,7 +105,7 @@ Detalle en `agenda-semanal-oct-nov-2026.md`.
 
 - [ ] Fusionar mega-resumen de Claude cuando Grok Bot lo localice
 - [ ] Confirmar merge de https://github.com/AURAxLab/onboarding/pull/1 y anotar SHA
-- [ ] Subir este `BITACORA_AUDITORIA.md` al repo onboarding
+- [x] Subir este `BITACORA_AUDITORIA.md` al repo onboarding (en PR #1; falta merge a main)
 - [ ] Actualizar Compusoc semanas 6–8 cuando haya más fechas en calendario
 
 ---
