@@ -22,6 +22,8 @@ No hay un track separado de “desarrollo de software practicante”. UI/código
 
 **Fuera de alcance:** AlquimIA / Colibría. **Aparcado:** OVARP (solo si ABE lo libera).
 
+Alineado con PATHWAY del mind palace (`C:\ClaudeStuff\_PORTAFOLIO\PATHWAY_2026-10.md`): semanas 2–4 cr-anonymizer; MixedFeedback es P2 (no forzar en semana 1).
+
 ---
 
 ## Lunes 5 oct - Logística e instalación (sin taller largo)
