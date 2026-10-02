@@ -187,8 +187,8 @@ Agua, baño, estirar. Alexander puede revisar LexTALE y decidir idioma del codel
 | 1 | NewCVAStudy / C5353 | Datos, tablas, evaluación |
 | 2 | cr-anonymizer | Corpus gold, métricas, protocolo |
 | 3 | MixedFeedback | Matrices lit / claim–fuente |
-| 4 | OVARP (rebanada) | Benchmark / SUS-UEQ; UI solo con guía |
-| 5 | AlquimIA / Colibría | Kits pedagógicos |
+
+**Fuera de alcance:** AlquimIA / Colibría. **Aparcado:** OVARP (pendiente decisión ABE).
 
 - Dejar claro: **no** hay track separado de “desarrollo de software practicante”; UI/código solo después del ramp-up de agentes y con revisión.
 

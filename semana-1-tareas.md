@@ -19,8 +19,8 @@ No hay un track separado de “desarrollo de software practicante”. UI/código
 | 1 | **NewCVAStudy / C5353** | Onboarding read-only + esqueleto tablas / codebook |
 | 2 | **cr-anonymizer** | Notas para guía de anotación (después de reunión con Daniel Shih) |
 | 3 | **MixedFeedback** | Solo familiarización ligera de matriz lit si sobra tiempo |
-| 4 | OVARP (rebanada) | Aún no prioritario esta semana |
-| 5 | AlquimIA / Colibría | Aún no prioritario esta semana |
+
+**Fuera de alcance:** AlquimIA / Colibría. **Aparcado:** OVARP (solo si ABE lo libera).
 
 ---
 
