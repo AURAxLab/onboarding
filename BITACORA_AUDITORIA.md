@@ -1,0 +1,106 @@
+# Bitácora / auditoría - Kiany onboarding + backlog ABE
+
+**Mantenedor:** Research Expert (Grok Bot coordinator)  
+**Org:** AURAxLab  
+**Zona:** America/Costa_Rica  
+**Regla (Alexander, 2026-10-02):** siempre mantener bitácora durable de onboarding Kiany, agendas semanales, inventario de backlog y trabajo de asistentes; citar rutas al reportar.
+
+## Rutas canónicas
+
+| Qué | Ruta |
+|-----|------|
+| Paquete local (box) | `/workspace/kiany-onboarding/` |
+| Copia AvalonM | `C:\Users\alexb\Documents\GrokBotHandoff\kiany-onboarding\` |
+| Repo GitHub | https://github.com/AURAxLab/onboarding |
+| PR publicación | https://github.com/AURAxLab/onboarding/pull/1 |
+
+Archivos del paquete: `index.html`, `taller-antigravity-2026-10-06.md`, `semana-1-tareas.md`, `agenda-semanal-oct-nov-2026.md`, `README.md`, este `BITACORA_AUDITORIA.md`.
+
+---
+
+## 1. Eventos (más reciente arriba)
+
+### 2026-10-02 ~00:28 CR
+- Regla de bitácora permanente confirmada vía Grok Bot.
+- Creado este archivo.
+
+### 2026-10-02 ~00:23–00:24 CR
+- PR #1 marcado ready for review (ya no draft): taller, semana 1, agenda 8 semanas, mapas de prioridad (solo C5353 → cr-anonymizer → MixedFeedback; AlquimIA fuera; OVARP aparcado).
+- Copia sincronizada a AvalonM `GrokBotHandoff\kiany-onboarding`.
+
+### 2026-10-02 ~00:19–00:22 CR
+- Agenda semanal 8 semanas escrita y corregida con Compusoc lun/jue (CI-0133) desde calendario ABE.
+- Núcleo Kiany: C5353 → cr-anonymizer → MixedFeedback. Sin AlquimIA. OVARP no núcleo.
+
+### 2026-10-02 ~00:11–00:18 CR
+- Research Expert asume track Kiany (handoff Grok Bot).
+- Onboarding HTML + taller + semana 1; repo `AURAxLab/onboarding` (no `onboarding-practicantes`).
+
+### 2026-10-02 (inventario backlog)
+- Alexander: recordar trabajo incompleto de asistentes de progra/IA (ej. ECCIOrganos no listo; SIROPE nunca probado).
+- Claude está escribiendo un mega-resumen de pendientes (Grok Bot escaneando AvalonM; fusionar cuando exista el archivo).
+
+---
+
+## 2. Inventario backlog incompleto (vivo)
+
+Estado según Alexander + Grok Bot + MV + GrokBot-Bot + disco (2026-10-02). Actualizar al fusionar el mega-resumen de Claude.
+
+### Nombrados explícitamente por Alexander
+| Ítem | Ruta / nota | Estado |
+|------|-------------|--------|
+| ECCIOrganos | `C:\AntiGravityStuff\ECCIOrganos` | No listo (mucho código/informes; falta cierre) |
+| SIROPE | `C:\AntiGravityStuff\SIROPE` | Nunca se probó en serio |
+
+### Track Kiany / investigación
+| Ítem | Estado |
+|------|--------|
+| NewCVAStudy / C5353 | Backlog primario; Kiany tras ramp-up; informe Obj1 100% Obj2 ~40% (disk note); qual analysis not started (disk note) |
+| cr-anonymizer | Activo; protocolo/gold tras Daniel Shih |
+| MixedFeedback | M0 done, M1 in progress (disk note); mid-plan Kiany |
+| OVARP (para Kiany) | Aparcado hasta decisión ABE |
+| AlquimIA / Colibría | Muerto / no planificar (ColibrIA solo materiales AccionSocial; carpeta AlquimIA no hallada) |
+
+### Otros asistentes / progra
+| Ítem | Estado |
+|------|--------|
+| VN (`AntiGravityStuff\VN`) | R1 Ch1–3 en curso con VNExpert |
+| AgenteRegimen / CTRSA-45 | Dossier vivo; ExtraNew ~22 sep |
+| Orchestrator | v0.4.6 pre-release; polish avatar/event/RTL pendiente |
+| Categorizador | Scaffold-ish; no núcleo Kiany |
+| Biosistemas | Docs dicen milestones DONE |
+| OVARP/IVA26 | Reject main; póster incentivado; TEST_READY COMPLETE (variantes archive ClaudeStuff) |
+| Redes (`ClaudeStuff`) | Apps web/agro; último push ~15 sep |
+| Charla Social Robotics ECCI | `...\UCR\Clases\Charlas\SocialRobotics-ECCI-draft.pptx` — faltan imágenes Sem3/IVA, demos NAO–Pepper, Mori, citas |
+| Compusoc Quiz4 file | `Quiz 4 (Reposicion).txt` no es el Quiz 4 de clase (limpieza opcional) |
+| Foro P2 id 1081852 | Al 27 sep 3/12 posts; grading/Master quizá abierto |
+
+### Presentes en disco (revisar estado luego)
+agent-study-game, AgenticCodingBook, budget, Cursoteca, notaria-cr, VNCharacterGenerator, VRNavigator, VRNavigatorApp-CITIC, VRVideoMaker, BH, ECCICartas, MyBrute.
+
+**No abrir:** Salud / Health*.
+
+---
+
+## 3. Compusoc (CI-0133 G3) anclado
+
+- Lun: clase ~10:00–11:50 (consultas posibles 9:00–10:00 y 13:30–15:00)
+- Jue: clase ~09:00–11:50
+- Lab típico: mar, mié, vie (+ tardes lun/jue libres)
+- Vistos: lun 5/19/26 oct, 2 nov; jue 8/15/22/29 oct, 5 nov
+- Lun 5 oct: EDUCON pickup 14:00
+
+Detalle en `agenda-semanal-oct-nov-2026.md`.
+
+---
+
+## 4. Pendiente de esta bitácora
+
+- [ ] Fusionar mega-resumen de Claude cuando Grok Bot lo localice
+- [ ] Confirmar merge de https://github.com/AURAxLab/onboarding/pull/1 y anotar SHA
+- [ ] Subir este `BITACORA_AUDITORIA.md` al repo onboarding
+- [ ] Actualizar Compusoc semanas 6–8 cuando haya más fechas en calendario
+
+---
+
+*AURAxLab · Bitácora auditoría · no borrar; solo append/actualizar*
